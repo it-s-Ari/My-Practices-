@@ -42,7 +42,7 @@ namespace PathFinder
                 node[0] = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Enter y of the corrosponding node: ");
                 node[1] = Convert.ToInt32(Console.ReadLine());
-                node[2] = Convert.ToInt32((0));
+                node[2] = (0);
                 obstacles.Add(node);
                 n--;
 
