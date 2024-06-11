@@ -32,9 +32,8 @@ namespace PathFinder
             };
 
         }
-        static List<int[]> GetObstacles(int n)  // gets the source and destination from the user
+        static List<int[]> GetObstacles(int n)  // gets the obstacels
         {
-            Console.WriteLine("Enter the number of forbidden nodes: ");
             List<int[]> obstacles = new List<int[]>();
             int[] node = new int[3];
             while (n > 0)
