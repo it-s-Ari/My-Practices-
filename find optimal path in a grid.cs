@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- Calculates the best path from one location to the other in an infinite grid using A* algorithm
+ Calculates the best path from one location to the other in an infinite grid using A* algorithm considering obstacles/forbiden nodes
  */
 namespace PathFinder
 {
