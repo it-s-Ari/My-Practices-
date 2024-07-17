@@ -2,3 +2,4 @@ This async program gets input from a user for a group of crypto contracts (e.g.,
     exchanges, Binance and KuCoin, then shows the price from each and the average. It is async in order to maximize aaccuracy
     by avoiding lags.
 cons: no strong error handling. This can be improved.
+*Not a bot yet
